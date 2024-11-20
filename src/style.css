@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {@apply text-c_green-light hover:text-c_white}
+
+.H1,h1 {@apply font-[900] text-[104px] leading-[104px] sm:text-[60px] sm:leading-[60px]}
+.H2,h2 {@apply font-[600] text-[48px] leading-[72px] sm:text-[32px] sm:leading-[36px]}
+.H3,h3 {@apply font-[400] text-[32px] leading-[48px] sm:text-[24px] sm:leading-[36px]}
+.H4,h4 {@apply font-[600] text-[24px] leading-[32px]}
+
+.text-normal {@apply font-[500] text-[20px] leading-[32px]}
+.text-small {@apply font-[400] text-[18px] leading-[28px] sm:text-[14px] sm:leading-[24px]}
+.text-small-bold {@apply font-[700] text-[18px] leading-[28px] sm:text-[14px] sm:leading-[24px]}
+
+.container {@apply max-w-[1600px] mx-auto px-[80px] md:px-[40px] sm:px-[20px]}
